@@ -1,0 +1,5 @@
+websockets
+ta
+numpy
+python-telegram-bot
+blinker

@@ -1,0 +1,11 @@
+
+services:
+  bot-alert:
+    build: .
+    container_name: python_broker_app
+    network_mode: host
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    restart: always
